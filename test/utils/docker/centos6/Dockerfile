@@ -1,5 +1,5 @@
 # Latest version of centos
-FROM centos:centos6
+FROM centos:centos7.9.2009
 RUN yum -y update; yum clean all;
 RUN yum -y install \
     acl \
