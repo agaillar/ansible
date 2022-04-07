@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.21.6-alpine
 
 RUN set -x && \
     apk add -U openssl py-pip && \
